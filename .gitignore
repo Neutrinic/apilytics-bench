@@ -1,0 +1,12 @@
+# Rust build output and toolchains
+target/
+.rust/
+# Python environments
+.venv/
+__pycache__/
+# Generated fixtures and runtime state: large, and rebuilt by the generator
+data/
+sources/
+profile.json
+# Local copies of benchmark output before they're renamed into results/
+gcp/results/
