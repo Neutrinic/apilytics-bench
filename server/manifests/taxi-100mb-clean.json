@@ -1,0 +1,174 @@
+{
+  "dataset": "taxi",
+  "size": "100mb",
+  "variant": "clean",
+  "row_count": 227287,
+  "json_bytes_ndjson": 100000359,
+  "ndjson_sha256": "632e2c5cd875bfa24a19f4a9d3ec27904b305cb48e1811da40b89aa38cadd795",
+  "seed": 20261004,
+  "rates": {},
+  "null_count_including_missing": {
+    "benchmark_id": 0,
+    "VendorID": 0,
+    "tpep_pickup_datetime": 0,
+    "tpep_dropoff_datetime": 0,
+    "passenger_count": 0,
+    "trip_distance": 0,
+    "RatecodeID": 0,
+    "store_and_fwd_flag": 0,
+    "PULocationID": 0,
+    "DOLocationID": 0,
+    "payment_type": 0,
+    "fare_amount": 0,
+    "extra": 0,
+    "mta_tax": 0,
+    "tip_amount": 0,
+    "tolls_amount": 0,
+    "improvement_surcharge": 0,
+    "total_amount": 0,
+    "congestion_surcharge": 0,
+    "Airport_fee": 0,
+    "pickup": 227287,
+    "fees": 227287
+  },
+  "missing_count": {
+    "benchmark_id": 0,
+    "VendorID": 0,
+    "tpep_pickup_datetime": 0,
+    "tpep_dropoff_datetime": 0,
+    "passenger_count": 0,
+    "trip_distance": 0,
+    "RatecodeID": 0,
+    "store_and_fwd_flag": 0,
+    "PULocationID": 0,
+    "DOLocationID": 0,
+    "payment_type": 0,
+    "fare_amount": 0,
+    "extra": 0,
+    "mta_tax": 0,
+    "tip_amount": 0,
+    "tolls_amount": 0,
+    "improvement_surcharge": 0,
+    "total_amount": 0,
+    "congestion_surcharge": 0,
+    "Airport_fee": 0,
+    "pickup": 227287,
+    "fees": 227287
+  },
+  "json_type_counts": {},
+  "numeric": {
+    "benchmark_id": {
+      "sum": "25829576541.0000000000",
+      "min": "0E-10",
+      "max": "227286.0000000000"
+    },
+    "VendorID": {
+      "sum": "401059.0000000000",
+      "min": "1.0000000000",
+      "max": "2.0000000000"
+    },
+    "passenger_count": {
+      "sum": "328800.0000000000",
+      "min": "0E-10",
+      "max": "8.0000000000"
+    },
+    "trip_distance": {
+      "sum": "930329.6700000000",
+      "min": "0E-10",
+      "max": "10879.2800000000"
+    },
+    "RatecodeID": {
+      "sum": "503865.0000000000",
+      "min": "1.0000000000",
+      "max": "99.0000000000"
+    },
+    "PULocationID": {
+      "sum": "36872381.0000000000",
+      "min": "1.0000000000",
+      "max": "265.0000000000"
+    },
+    "DOLocationID": {
+      "sum": "36872470.0000000000",
+      "min": "1.0000000000",
+      "max": "265.0000000000"
+    },
+    "payment_type": {
+      "sum": "292223.0000000000",
+      "min": "1.0000000000",
+      "max": "4.0000000000"
+    },
+    "fare_amount": {
+      "sum": "4697897.4500000000",
+      "min": "-404.1000000000",
+      "max": "1616.5000000000"
+    },
+    "extra": {
+      "sum": "350113.9500000000",
+      "min": "-7.5000000000",
+      "max": "11.7500000000"
+    },
+    "mta_tax": {
+      "sum": "108495.4000000000",
+      "min": "-0.5000000000",
+      "max": "1.6000000000"
+    },
+    "tip_amount": {
+      "sum": "803570.2400000000",
+      "min": "-22.2400000000",
+      "max": "144.0000000000"
+    },
+    "tolls_amount": {
+      "sum": "168013.2600000000",
+      "min": "-60.0000000000",
+      "max": "101.6900000000"
+    },
+    "improvement_surcharge": {
+      "sum": "220207.4000000000",
+      "min": "-1.0000000000",
+      "max": "1.0000000000"
+    },
+    "total_amount": {
+      "sum": "6764750.5500000000",
+      "min": "-426.5400000000",
+      "max": "1617.5000000000"
+    },
+    "congestion_surcharge": {
+      "sum": "492203.2500000000",
+      "min": "-2.5000000000",
+      "max": "2.5000000000"
+    },
+    "Airport_fee": {
+      "sum": "47566.7500000000",
+      "min": "-1.7500000000",
+      "max": "1.7500000000"
+    }
+  },
+  "timestamps": {
+    "tpep_pickup_datetime": {
+      "min": "2002-12-31 22:59:39",
+      "max": "2024-01-04 23:38:18",
+      "invalid_count": 0
+    },
+    "tpep_dropoff_datetime": {
+      "min": "2002-12-31 23:05:41",
+      "max": "2024-01-05 00:05:16",
+      "invalid_count": 0
+    }
+  },
+  "distinct_ids": {
+    "benchmark_id": 227287,
+    "VendorID": 2,
+    "RatecodeID": 7,
+    "PULocationID": 236,
+    "DOLocationID": 256
+  },
+  "page_sizes": [
+    500,
+    5000
+  ],
+  "oracle": "rendered.parquet payload column; numeric strings parsed as DECIMAL(38,10), null/invalid excluded; timestamps naive UTC; IDs distinct by textual value",
+  "generator_versions": {
+    "duckdb": "1.5.6",
+    "pyarrow": "25.0.1"
+  }
+}
