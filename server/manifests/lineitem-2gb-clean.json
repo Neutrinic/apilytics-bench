@@ -1,0 +1,132 @@
+{
+  "dataset": "lineitem",
+  "size": "2gb",
+  "variant": "clean",
+  "row_count": 4772050,
+  "json_bytes_ndjson": 2000000031,
+  "ndjson_sha256": "2bd1fea3a1a5d4c4b290e7f87c35c5f9113668dd9d9787996283b248e5dfde86",
+  "seed": 20261004,
+  "rates": {},
+  "null_count_including_missing": {
+    "benchmark_id": 0,
+    "l_orderkey": 0,
+    "l_partkey": 0,
+    "l_suppkey": 0,
+    "l_linenumber": 0,
+    "l_quantity": 0,
+    "l_extendedprice": 0,
+    "l_discount": 0,
+    "l_tax": 0,
+    "l_returnflag": 0,
+    "l_linestatus": 0,
+    "l_shipdate": 0,
+    "l_commitdate": 0,
+    "l_receiptdate": 0,
+    "l_shipinstruct": 0,
+    "l_shipmode": 0,
+    "l_comment": 0,
+    "pickup": 4772050,
+    "fees": 4772050
+  },
+  "missing_count": {
+    "benchmark_id": 0,
+    "l_orderkey": 0,
+    "l_partkey": 0,
+    "l_suppkey": 0,
+    "l_linenumber": 0,
+    "l_quantity": 0,
+    "l_extendedprice": 0,
+    "l_discount": 0,
+    "l_tax": 0,
+    "l_returnflag": 0,
+    "l_linestatus": 0,
+    "l_shipdate": 0,
+    "l_commitdate": 0,
+    "l_receiptdate": 0,
+    "l_shipinstruct": 0,
+    "l_shipmode": 0,
+    "l_comment": 0,
+    "pickup": 4772050,
+    "fees": 4772050
+  },
+  "json_type_counts": {},
+  "numeric": {
+    "benchmark_id": {
+      "sum": "11386228215225.0000000000",
+      "min": "0E-10",
+      "max": "4772049.0000000000"
+    },
+    "l_orderkey": {
+      "sum": "11385094696475.0000000000",
+      "min": "1.0000000000",
+      "max": "4771045.0000000000"
+    },
+    "l_partkey": {
+      "sum": "2386304600932.0000000000",
+      "min": "1.0000000000",
+      "max": "1000000.0000000000"
+    },
+    "l_suppkey": {
+      "sum": "119298541464.0000000000",
+      "min": "1.0000000000",
+      "max": "50000.0000000000"
+    },
+    "l_linenumber": {
+      "sum": "14318477.0000000000",
+      "min": "1.0000000000",
+      "max": "7.0000000000"
+    },
+    "l_quantity": {
+      "sum": "121701726.0000000000",
+      "min": "1.0000000000",
+      "max": "50.0000000000"
+    },
+    "l_extendedprice": {
+      "sum": "182451134254.8200000000",
+      "min": "901.0000000000",
+      "max": "104948.0000000000"
+    },
+    "l_discount": {
+      "sum": "238560.0100000000",
+      "min": "0E-10",
+      "max": "0.1000000000"
+    },
+    "l_tax": {
+      "sum": "190933.6300000000",
+      "min": "0E-10",
+      "max": "0.0800000000"
+    }
+  },
+  "timestamps": {
+    "l_shipdate": {
+      "min": "1992-01-02 00:00:00",
+      "max": "1998-12-01 00:00:00",
+      "invalid_count": 0
+    },
+    "l_commitdate": {
+      "min": "1992-01-31 00:00:00",
+      "max": "1998-10-31 00:00:00",
+      "invalid_count": 0
+    },
+    "l_receiptdate": {
+      "min": "1992-01-04 00:00:00",
+      "max": "1998-12-31 00:00:00",
+      "invalid_count": 0
+    }
+  },
+  "distinct_ids": {
+    "benchmark_id": 4772050,
+    "l_orderkey": 1192765,
+    "l_partkey": 991511,
+    "l_suppkey": 50000
+  },
+  "page_sizes": [
+    500,
+    5000
+  ],
+  "oracle": "rendered.parquet payload column; numeric strings parsed as DECIMAL(38,10), null/invalid excluded; timestamps naive UTC; IDs distinct by textual value",
+  "generator_versions": {
+    "duckdb": "1.5.6",
+    "pyarrow": "25.0.1"
+  }
+}

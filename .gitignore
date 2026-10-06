@@ -1,12 +1,20 @@
-# Rust build output and toolchains
+# Rust build output and the isolated toolchain
 target/
 .rust/
 # Python environments
 .venv/
 __pycache__/
-# Generated fixtures and runtime state: large, and rebuilt by the generator
+# Generated fixtures and their source data: large, and rebuilt by server/generate.py
 data/
 sources/
-profile.json
-# Local copies of benchmark output before they're renamed into results/
+*.log
+# Runtime state and binaries that deploy/install.sh creates
+server/profile.json
+server/toxiproxy.json
+server/toxiproxy-server
+server/synthetic-rest-axum
+# Measurement output from the server's own checks
+server/server-throughput.json
+server/verification-all.json
+# Benchmark output copied from the VMs, before it's renamed into results/
 gcp/results/

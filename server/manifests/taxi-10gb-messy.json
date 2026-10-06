@@ -1,0 +1,184 @@
+{
+  "dataset": "taxi",
+  "size": "10gb",
+  "variant": "messy",
+  "row_count": 22403847,
+  "json_bytes_ndjson": 10000000248,
+  "ndjson_sha256": "b43469b973a72bc236825bd76eccb046d69648572e962db383905d3ba859ccb4",
+  "seed": 20261004,
+  "rates": {
+    "nested": 0.02,
+    "arrays": 0.02,
+    "null": 0.02,
+    "missing": 0.02,
+    "extra": 0.02,
+    "numeric_string": 0.02,
+    "fraction": 0.02,
+    "large_id": 0.02,
+    "timestamp": 0.02
+  },
+  "null_count_including_missing": {
+    "benchmark_id": 43565,
+    "VendorID": 44474,
+    "tpep_pickup_datetime": 44069,
+    "tpep_dropoff_datetime": 44580,
+    "passenger_count": 2016499,
+    "trip_distance": 44678,
+    "RatecodeID": 2016370,
+    "store_and_fwd_flag": 2016842,
+    "PULocationID": 44704,
+    "DOLocationID": 44154,
+    "payment_type": 44339,
+    "fare_amount": 44978,
+    "extra": 44840,
+    "mta_tax": 44942,
+    "tip_amount": 44790,
+    "tolls_amount": 45175,
+    "improvement_surcharge": 44948,
+    "total_amount": 44791,
+    "congestion_surcharge": 2016822,
+    "Airport_fee": 2016902,
+    "pickup": 21955889,
+    "fees": 21955690
+  },
+  "missing_count": {
+    "benchmark_id": 21764,
+    "VendorID": 22152,
+    "tpep_pickup_datetime": 21940,
+    "tpep_dropoff_datetime": 22284,
+    "passenger_count": 22156,
+    "trip_distance": 22258,
+    "RatecodeID": 22168,
+    "store_and_fwd_flag": 22251,
+    "PULocationID": 22337,
+    "DOLocationID": 22176,
+    "payment_type": 22200,
+    "fare_amount": 22360,
+    "extra": 22360,
+    "mta_tax": 22374,
+    "tip_amount": 22312,
+    "tolls_amount": 22575,
+    "improvement_surcharge": 22536,
+    "total_amount": 22538,
+    "congestion_surcharge": 22156,
+    "Airport_fee": 22466,
+    "pickup": 21955889,
+    "fees": 21955690
+  },
+  "json_type_counts": {},
+  "numeric": {
+    "benchmark_id": {
+      "sum": "493720461240788403.2000000000",
+      "min": "0E-10",
+      "max": "1099534031520.0000000000"
+    },
+    "VendorID": {
+      "sum": "39482655.6000000000",
+      "min": "1.0000000000",
+      "max": "6.0000000000"
+    },
+    "passenger_count": {
+      "sum": "27387586.8000000000",
+      "min": "0E-10",
+      "max": "9.0000000000"
+    },
+    "trip_distance": {
+      "sum": "103207805.8800000000",
+      "min": "0E-10",
+      "max": "312722.3000000000"
+    },
+    "RatecodeID": {
+      "sum": "46277893.8000000000",
+      "min": "1.0000000000",
+      "max": "99.0000000000"
+    },
+    "PULocationID": {
+      "sum": "3670202249.6000000000",
+      "min": "1.0000000000",
+      "max": "265.0000000000"
+    },
+    "DOLocationID": {
+      "sum": "3651426442.2000000000",
+      "min": "1.0000000000",
+      "max": "265.0000000000"
+    },
+    "payment_type": {
+      "sum": "25163703.8000000000",
+      "min": "0E-10",
+      "max": "5.0000000000"
+    },
+    "fare_amount": {
+      "sum": "423879872.8500000000",
+      "min": "-2261.2000000000",
+      "max": "334076.3200000000"
+    },
+    "extra": {
+      "sum": "31731768.2100000000",
+      "min": "-7.5000000000",
+      "max": "65.9900000000"
+    },
+    "mta_tax": {
+      "sum": "10772140.7700000000",
+      "min": "-0.5000000000",
+      "max": "35.8400000000"
+    },
+    "tip_amount": {
+      "sum": "73613091.3600000000",
+      "min": "-300.0000000000",
+      "max": "999.9900000000"
+    },
+    "tolls_amount": {
+      "sum": "12417579.8300000000",
+      "min": "-117.2600000000",
+      "max": "1702.8800000000"
+    },
+    "improvement_surcharge": {
+      "sum": "21662559.7000000000",
+      "min": "-1.0000000000",
+      "max": "1.0000000000"
+    },
+    "total_amount": {
+      "sum": "615803479.3900000000",
+      "min": "-2265.4500000000",
+      "max": "334145.3000000000"
+    },
+    "congestion_surcharge": {
+      "sum": "45743819.7700000000",
+      "min": "-2.5000000000",
+      "max": "2.5200000000"
+    },
+    "Airport_fee": {
+      "sum": "2983347.5000000000",
+      "min": "-1.7500000000",
+      "max": "1.7500000000"
+    }
+  },
+  "timestamps": {
+    "tpep_pickup_datetime": {
+      "min": "2002-12-31 16:46:07",
+      "max": "2026-06-26 23:53:12",
+      "invalid_count": 112171
+    },
+    "tpep_dropoff_datetime": {
+      "min": "2002-12-31 17:24:07",
+      "max": "2026-06-27 20:59:10",
+      "invalid_count": 112254
+    }
+  },
+  "distinct_ids": {
+    "benchmark_id": 22295307,
+    "VendorID": 4,
+    "RatecodeID": 8,
+    "PULocationID": 263,
+    "DOLocationID": 262
+  },
+  "page_sizes": [
+    500,
+    5000
+  ],
+  "oracle": "rendered.parquet payload column; numeric strings parsed as DECIMAL(38,10), null/invalid excluded; timestamps naive UTC; IDs distinct by textual value",
+  "generator_versions": {
+    "duckdb": "1.5.6",
+    "pyarrow": "25.0.1"
+  }
+}
